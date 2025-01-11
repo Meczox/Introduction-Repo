@@ -9,29 +9,34 @@
 }
 
 #letter {
-    background: linear-gradient(135deg, black, rgb(63, 61, 61));
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: #f0f0f0;
     border-radius: 10px;
-    color: white;
     font-size: 20px;
     position: absolute;   
     z-index: 10;          
     display: none;
-    border: 2px solid white;
     padding: 0.5%;
     top:3%;
     left: 1%;
     line-height: 8mm;
 }
 
+#letter:hover, #Hobbies:hover, #Australia:hover, #Japan:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 #Hobbies {
-    background: linear-gradient(135deg, black, rgb(63, 61, 61));
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: #f0f0f0;
     border-radius: 10px;
-    color: white;
     font-size: 20px;
     position: absolute;   
     z-index: 10;          
     display: none;
-    border: 2px solid white;
     padding: 0.5%;
     top: 70%;
     left: 1%;
@@ -39,14 +44,14 @@
 }
 
 #Australia {
-    background: linear-gradient(135deg, black, rgb(63, 61, 61));
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: #f0f0f0;
     border-radius: 10px;
-    color: white;
     font-size: 20px;
     position: absolute;   
     z-index: 10;          
     display: none;
-    border: 2px solid white;
     padding: 0.5%;
     top:3%;
     left: 70%;
@@ -54,14 +59,14 @@
 }
 
 #Japan {
-    background: linear-gradient(135deg, black, rgb(63, 61, 61));
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: #f0f0f0;
     border-radius: 10px;
-    color: white;
     font-size: 20px;
     position: absolute;   
     z-index: 10;          
     display: none;
-    border: 2px solid white;
     padding: 0.5%;
     top:70%;
     left: 70%;
