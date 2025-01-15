@@ -16,7 +16,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 // Sphere (globe)
 const eMesh = new THREE.Mesh(
-  new THREE.SphereGeometry(0.5, 27, 27),
+  new THREE.SphereGeometry(0.5, 32, 32),
   new THREE.MeshPhongMaterial({
     map: new THREE.TextureLoader().load('texture/earthmap.jpg'),
     bumpMap: new THREE.TextureLoader().load('texture/earthbump.jpeg'),
