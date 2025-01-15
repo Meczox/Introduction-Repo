@@ -39,7 +39,7 @@ scene.add(startMesh);
 const ambientlight = new THREE.AmbientLight(0xffffff, 0.2);
 scene.add(ambientlight);
 
-const pointlight = new THREE.PointLight(0xffffff, 200);
+const pointlight = new THREE.PointLight(0xffffff, 80);
 pointlight.position.set(5, 3, 5);
 scene.add(pointlight);
 
