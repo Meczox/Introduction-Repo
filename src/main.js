@@ -16,7 +16,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 // Sphere (globe)
 const eMesh = new THREE.Mesh(
-  new THREE.SphereGeometry(0.5, 32, 32),
+  new THREE.SphereGeometry(0.5, 27, 27),
   new THREE.MeshPhongMaterial({
     map: new THREE.TextureLoader().load('texture/earthmap.jpg'),
     bumpMap: new THREE.TextureLoader().load('texture/earthbump.jpeg'),
@@ -39,7 +39,7 @@ scene.add(startMesh);
 const ambientlight = new THREE.AmbientLight(0xffffff, 0.2);
 scene.add(ambientlight);
 
-const pointlight = new THREE.PointLight(0xffffff, 80);
+const pointlight = new THREE.PointLight(0xffffff, 150);
 pointlight.position.set(5, 3, 5);
 scene.add(pointlight);
 
